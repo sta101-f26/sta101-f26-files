@@ -1,1 +1,1 @@
-# sta101-f26-files
+# STA 101 files
