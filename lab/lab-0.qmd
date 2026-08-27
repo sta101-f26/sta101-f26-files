@@ -1,0 +1,101 @@
+---
+title: "Lab 0"
+author: "Your name"
+format: pdf
+---
+
+# 1. Packages
+
+**Packages** are bundles of *extra commands* that R doesn't include by default. They're like "expansion packs" that enable R to do things it couldn't normally do. The main package we will use is called `tidyverse`, and the command that loads in packages is called `library()`. Try it here:
+
+```{r}
+#| label: load-packages
+
+# add your code here
+```
+
+You will probably have to load at least one package for every document you work on in this class (lecture, lab, HW, project). All you have to do is load your packages *once* at the very top of the document, like you just did here.
+
+{{< pagebreak >}}
+
+# 2. Importing data
+
+There are two ways we will use to get data into R: loading a package that contains a dataset, and reading in a dataset from a file (typically a csv file).
+
+Use the `library()` command to load the `palmerpenguins` package. This package contains a dataset called `penguins`:
+
+```{r}
+#| label: import-from-package
+
+# add your code here
+```
+
+Use the `read_csv()` command together with *variable assignment* to create a data frame called `pokemon` that houses the data on Pokémon found in the file `data/pokemon.csv`:
+
+```{r}
+#| label: import-from-file
+
+# add your code here
+```
+
+{{< pagebreak >}}
+
+# 3. Data frames
+
+A data frame is R's version of a spreadsheet. It has rows and columns. The rows are the *observations* and the columns are the *variables*. 
+
+```{r}
+#| label: data-frame-basics
+
+# add your code here
+```
+
+{{< pagebreak >}}
+
+# 4. Data visualization with `ggplot`
+
+## Histogram
+
+Use `ggplot` to build up a well-labeled histogram plot of Pokémon attack abilities:
+
+```{r}
+#| label: histogram
+
+# add your code here
+```
+
+Describe in words how the distribution looks: 
+
+## Density
+
+Create a density plot that visualizes the flipper lengths of different species of penguins:
+
+```{r}
+#| label: density
+
+# add your code here
+```
+
+How do the three species compare?
+
+{{< pagebreak >}}
+
+# 5. Data summarization with pipelines
+
+Each Pokémon has an `hp` (hit point) score and a `type_1` (bug, grass, electric, etc). Write a data pipeline to calculate the average `hp` for each type of Pokémon, and figure out which types have the highest and lowest average hp:
+
+```{r}
+#| label: summarize
+
+# add your code here
+```
+
+What *proportion* of the critters in the `penguins` dataset belong to each of the three species?
+
+```{r}
+#| label: mutate
+
+# add your code here
+```
+
+
