@@ -1,0 +1,142 @@
+---
+title: "AE 01: The Bechdel Test"
+---
+
+In this mini-analysis, we use the data from the FiveThirtyEight story "The Dollar-And-Cents Case Against Hollywood's Exclusion of Women."
+
+This analysis is about the [Bechdel test](https://en.wikipedia.org/wiki/Bechdel_test), a measure of the representation of women in fiction.
+
+## Getting started
+
+### Packages
+
+We'll use the **tidyverse** package for this analysis.
+
+```{r}
+#| label: load-packages
+#| message: false
+library(tidyverse)
+```
+
+### Data
+
+The data are stored as a CSV (comma-separated values) file in your repository's `data` folder. Let's read it from there and save it as an object called `bechdel`.
+
+```{r}
+#| label: read-data
+#| message: false
+bechdel <- read_csv("data/bechdel.csv")
+```
+
+### Variables of interest
+
+The variables we'll focus on are the following:
+
+-   `title`: name of movie
+-   `year`: release year of movie (between 1990 and 2013);
+-   `gross_2013`: how much did the movie earn at the box office (in 2013 $);
+-   `budget_2013`: how much did the movie cost to make (in 2013 $); 
+-   `roi`: Return on investment, calculated as the ratio of the gross to budget;
+    - If the movie broke even, roi is ___;
+    - If the movie made money, roi is ___;
+    - If the movie lost money, roi is ___;
+-   `clean_test`: Bechdel test result:
+    -   `ok` = passes test
+    -   `dubious` (*Chinatown*?)
+    -   `men` = women only talk about men
+    -   `notalk` = women don't talk to each other
+    -   `nowomen` = fewer than two women
+-   `binary`: Bechdel Test PASS vs FAIL binary
+
+### Get to know the data
+
+We can use the `glimpse()` function to get an overview (or "glimpse") of the data.
+
+```{r}
+#| label: glimpse
+# add code here
+```
+
+-   What does each observation (row) in the data set represent?
+
+Each observation represents a ___.
+
+-   How many observations (rows) are in the data set?
+
+```{r}
+# add code here
+```
+
+-   How many variables (columns) are in the data set?
+
+```{r}
+# add code here
+```
+
+## One numerical variable
+
+Visualize the *distribution* of the film grosses:
+
+```{r}
+# add code here
+```
+
+
+Summarize the *distribution* of the film grosses:
+
+```{r}
+# add code here
+```
+
+What are the features of the distribution (center, spread, and shape)?
+
+## One categorical variable
+
+Visualize the compositon of Bechdel test results:
+
+```{r}
+# add code here
+```
+
+
+Summarize the compositon of Bechdel test results:
+
+```{r}
+# add code here
+```
+
+Which category is most common?
+
+## Two numerical variables
+
+Visualize the relationship between film budgets and grosses:
+
+```{r}
+# add code here
+```
+
+Summarize the relationship between film budgets and grosses:
+
+```{r}
+# add code here
+```
+
+How would you describe the relationship in terms of its direction, strength, and shape?
+
+## Numerical and categorical
+
+Visualize the relationship between a film's Bechdel Test result and its return-on-investment:
+
+```{r}
+# add code here
+```
+
+Summarize the relationship between a film's Bechdel Test result and its return-on-investment:
+
+```{r}
+# add code here
+```
+
+Does the FiveThirtyEight article's claims hold up?
+
+
