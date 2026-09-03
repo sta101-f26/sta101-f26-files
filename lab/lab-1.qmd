@@ -1,0 +1,45 @@
+---
+title: Lab 1 - Exploring NC Counties
+subtitle: Duke University - STA 101 - Fall 2026
+authors: 
+  - Your Name
+  - Teammate 1
+  - Teammate 2
+  - Teammate 3
+format: pdf
+fig-width: 5
+fig-asp: 0.618
+---
+
+```{r}
+#| label: load-packages-data
+#| message: false
+# add code here
+```
+
+# Question 1
+
+```{r}
+#| label: population-histogram
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Question 2
+
+```{r}
+#| label: population-boxplot
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Question 3
+
+```{r}
+#| label: density-area-miles-scatterplot
+# add code here
+```
+
+
