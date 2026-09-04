@@ -1,0 +1,134 @@
+---
+title: "Homework 1"
+author: "Insert your name here"
+editor: source
+format: pdf
+---
+
+
+Load your packages:
+
+```{r}
+#| label: load-packages
+
+# add code here
+```
+
+Load your data: 
+
+```{r}
+#| label: load-data
+
+# add code here
+```
+
+## Exercise 0
+
+What music should we listen to while we grade this?
+
+
+{{< pagebreak >}}
+
+# Part 1
+
+## Exercise 1
+
+Add your response here.
+
+```{r}
+#| label: ex-1
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 2
+
+Add your response here.
+
+```{r}
+#| label: ex-2
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 3
+
+Add your response here.
+
+```{r}
+#| label: ex-3
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 4
+
+Add your response here.
+
+```{r}
+#| label: ex-4
+#| fig-asp: 1
+#| fig-width: 4
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 5
+
+Add your response here.
+
+```{r}
+#| label: ex-5
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 6
+
+Add your response here.
+
+```{r}
+#| label: ex-6
+#| fig-asp: 1
+#| fig-width: 4
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 7
+
+Add your response here.
+
+```{r}
+#| label: ex-7
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Part 2: IMS Exercises
+
+## Exercise 8
+
+Add your response here.
+
+## Exercise 9
+
+Add your response here.
+
+## Exercise 10
+
+Add your response here.
