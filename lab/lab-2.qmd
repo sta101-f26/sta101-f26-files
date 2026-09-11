@@ -1,0 +1,109 @@
+---
+title: Lab 2
+subtitle: Duke University - STA 101 - Fall 2026
+authors: 
+  - Your Name
+  - Teammate 1
+  - Teammate 2
+  - Teammate 3
+format: pdf
+fig-width: 5
+fig-asp: 0.618
+---
+
+```{r}
+#| label: load-packages-data
+#| message: false
+# add code here
+```
+
+# Task 1
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-1
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Task 2
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-2
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Task 3
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-3
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Task 4
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-4
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Task 5
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-5
+# add code here
+```
+
+{{< pagebreak >}}
+
+
+# Task 6
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-6
+# add code here
+```
+
+{{< pagebreak >}}
+
+
+# Task 7
+
+Add any narrative here (or delete if you don't need it).
+
+```{r}
+#| label: task-7
+# add code here
+```
+
+{{< pagebreak >}}
+
+
+# Task 8
+
+Add narrative here.
+
+
+
+
+
+
+
