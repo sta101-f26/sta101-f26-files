@@ -1,0 +1,348 @@
+balance,income,student_status,marriage_status,limit,marriage_student
+890,49.927,Not student,Married,6396,married unstudent
+194,24.314,Not student,Married,3409,married unstudent
+298,21.153,Not student,Not married,3736,unmarried unstudent
+47,34.537,Not student,Married,3271,married unstudent
+0,25.974,Not student,Not married,2308,unmarried unstudent
+912,23.283,Not student,Married,5443,married unstudent
+0,16.529,Not student,Not married,1357,unmarried unstudent
+155,26.067,Not student,Married,3388,married unstudent
+1587,68.713,Student,Not married,7582,unmarried student
+637,39.422,Not student,Not married,5245,unmarried unstudent
+1176,59.53,Not student,Not married,7518,unmarried unstudent
+732,17.765,Not student,Married,5072,married unstudent
+391,110.968,Not student,Married,6662,married unstudent
+0,39.116,Not student,Not married,2150,unmarried unstudent
+772,39.055,Not student,Married,5565,married unstudent
+849,101.788,Not student,Married,8029,married unstudent
+0,80.861,Not student,Married,4090,married unstudent
+108,21.238,Not student,Not married,3089,unmarried unstudent
+964,148.924,Not student,Not married,9504,unmarried unstudent
+0,15.184,Not student,Married,2420,married unstudent
+344,13.647,Not student,Married,3461,married unstudent
+799,29.567,Not student,Not married,5309,unmarried unstudent
+0,30.406,Not student,Married,2120,married unstudent
+0,30.733,Not student,Not married,2832,unmarried unstudent
+454,148.08,Not student,Married,8157,married unstudent
+602,12,Not student,Married,4160,married unstudent
+1573,121.834,Not student,Not married,10673,unmarried unstudent
+414,44.061,Not student,Married,4970,married unstudent
+0,39.11,Not student,Not married,3189,unmarried unstudent
+868,23.793,Student,Married,3821,married student
+204,14.595,Not student,Married,2955,married unstudent
+50,34.95,Not student,Not married,3327,unmarried unstudent
+271,16.482,Not student,Not married,3326,unmarried unstudent
+482,66.989,Not student,Married,5614,married unstudent
+984,49.166,Not student,Not married,6662,unmarried unstudent
+188,55.054,Not student,Married,4381,married unstudent
+0,20.791,Not student,Not married,2672,unmarried unstudent
+0,15.629,Not student,Married,2493,married unstudent
+0,35.177,Not student,Not married,2117,unmarried unstudent
+0,17.316,Not student,Not married,1335,unmarried unstudent
+516,46.102,Not student,Married,5180,married unstudent
+905,82.706,Not student,Married,7506,married unstudent
+0,39.609,Not student,Married,2539,married unstudent
+382,14.292,Not student,Married,3274,married unstudent
+70,45.12,Not student,Married,3762,married unstudent
+347,30.111,Not student,Married,4336,married unstudent
+1246,44.847,Student,Not married,5765,unmarried student
+573,27.512,Not student,Married,4613,married unstudent
+0,44.522,Not student,Married,2252,married unstudent
+823,27.825,Not student,Married,5227,married unstudent
+8,44.473,Not student,Not married,3500,unmarried unstudent
+0,36.142,Not student,Not married,1852,unmarried unstudent
+68,17.392,Not student,Married,2748,married unstudent
+904,62.602,Not student,Not married,7056,unmarried unstudent
+133,29.725,Not student,Not married,3536,unmarried unstudent
+0,11.603,Not student,Married,2278,married unstudent
+0,14.084,Not student,Married,855,married unstudent
+968,37.348,Not student,Not married,6378,unmarried unstudent
+159,26.37,Not student,Married,3235,married unstudent
+293,65.896,Not student,Married,5140,married unstudent
+1216,10.842,Student,Married,4391,married student
+992,35.61,Not student,Not married,6135,unmarried unstudent
+379,57.1,Not student,Married,4742,married unstudent
+1350,71.061,Student,Married,6819,married student
+0,36.364,Not student,Not married,2220,unmarried unstudent
+156,41.419,Student,Not married,2120,unmarried student
+606,41.365,Not student,Not married,5303,unmarried unstudent
+503,23.672,Not student,Not married,4433,unmarried unstudent
+0,22.561,Not student,Not married,1787,unmarried unstudent
+0,37.728,Not student,Married,2525,married unstudent
+955,12.456,Not student,Married,5395,married unstudent
+681,34.909,Not student,Married,5289,married unstudent
+1129,37.878,Not student,Not married,6827,unmarried unstudent
+529,163.329,Not student,Married,8732,married unstudent
+0,27.47,Not student,Married,2820,married unstudent
+357,24.889,Not student,Married,3954,married unstudent
+631,35.51,Not student,Not married,5198,unmarried unstudent
+0,55.056,Not student,Married,3155,married unstudent
+840,19.782,Student,Not married,3782,unmarried student
+531,51.872,Not student,Not married,5294,unmarried unstudent
+419,23.35,Student,Not married,2558,unmarried student
+891,49.57,Not student,Married,6384,married unstudent
+75,54.663,Not student,Not married,4116,unmarried unstudent
+0,27.578,Not student,Married,2531,married unstudent
+1020,56.256,Student,Married,5521,married student
+510,40.442,Not student,Not married,4828,unmarried unstudent
+1192,160.231,Not student,Not married,10748,unmarried unstudent
+431,17.976,Student,Not married,2433,unmarried student
+1393,135.118,Not student,Married,10578,married unstudent
+0,43.54,Not student,Not married,2906,unmarried unstudent
+1036,33.694,Student,Not married,4891,unmarried student
+0,53.319,Not student,Not married,3000,unmarried unstudent
+532,30.622,Student,Not married,3293,unmarried student
+0,53.598,Not student,Married,3714,married unstudent
+1142,52.179,Not student,Not married,7306,unmarried unstudent
+1050,180.379,Student,Married,9310,married student
+255,18.145,Not student,Married,3461,married unstudent
+423,10.635,Not student,Married,3584,married unstudent
+15,88.83,Not student,Married,4952,married unstudent
+1086,63.809,Not student,Married,7530,married unstudent
+1264,61.069,Not student,Married,7871,married unstudent
+209,23.106,Not student,Not married,3476,unmarried unstudent
+0,30.002,Not student,Married,1561,married unstudent
+1018,21.455,Not student,Married,5829,married unstudent
+651,27.999,Not student,Married,5107,married unstudent
+0,18.951,Not student,Not married,1485,unmarried unstudent
+0,15.717,Student,Married,905,married student
+1208,71.682,Not student,Married,8028,married unstudent
+0,53.308,Not student,Married,2860,married unstudent
+1809,186.634,Not student,Married,13414,married unstudent
+1448,158.889,Not student,Married,11589,married unstudent
+0,11.741,Not student,Not married,2271,unmarried unstudent
+463,14.479,Not student,Married,3907,married unstudent
+1779,152.298,Not student,Married,12066,married unstudent
+605,91.876,Not student,Married,6754,married unstudent
+805,17.055,Not student,Married,5110,married unstudent
+415,31.029,Student,Married,2863,married student
+0,23.365,Not student,Not married,2179,unmarried unstudent
+671,14.09,Not student,Married,4323,married unstudent
+481,51.532,Not student,Married,5096,married unstudent
+121,41.192,Not student,Married,3673,married unstudent
+467,32.793,Not student,Not married,4534,unmarried unstudent
+138,57.872,Not student,Married,4171,married unstudent
+0,14.711,Not student,Married,2047,married unstudent
+930,83.869,Not student,Not married,7667,unmarried unstudent
+802,23.883,Not student,Married,5384,married unstudent
+0,19.225,Not student,Not married,1433,unmarried unstudent
+380,62.328,Not student,Not married,5228,unmarried unstudent
+98,22.574,Student,Married,1551,married student
+1405,180.682,Not student,Married,11966,married unstudent
+580,21.786,Not student,Married,4632,married unstudent
+1003,55.412,Student,Married,5354,married student
+915,26.813,Not student,Not married,5611,unmarried unstudent
+926,32.856,Not student,Not married,5884,unmarried unstudent
+541,53.401,Not student,Not married,5319,unmarried unstudent
+302,61.62,Not student,Married,5140,married unstudent
+0,15.354,Not student,Not married,2101,unmarried unstudent
+663,22.939,Not student,Married,4923,married unstudent
+0,23.857,Not student,Married,1501,married unstudent
+0,15.045,Not student,Not married,1311,unmarried unstudent
+0,28.144,Not student,Married,1567,married unstudent
+0,18.036,Not student,Not married,1552,unmarried unstudent
+570,25.383,Not student,Married,4527,married unstudent
+578,64.173,Not student,Married,6127,married unstudent
+642,19.529,Not student,Not married,4673,unmarried unstudent
+581,63.931,Not student,Married,5728,married unstudent
+0,16.819,Not student,Married,1337,married unstudent
+163,27.952,Not student,Married,3557,married unstudent
+863,34.142,Not student,Married,5666,married unstudent
+1151,80.18,Not student,Not married,8047,unmarried unstudent
+203,20.996,Not student,Not married,3388,unmarried unstudent
+1103,58.781,Not student,Married,7402,married unstudent
+0,20.088,Not student,Not married,1870,unmarried unstudent
+385,44.158,Not student,Married,4763,married unstudent
+1361,125.48,Not student,Married,10230,married unstudent
+669,103.893,Not student,Not married,7416,unmarried unstudent
+843,92.386,Not student,Married,7685,married unstudent
+0,34.772,Not student,Not married,2021,unmarried unstudent
+531,11.795,Not student,Not married,3899,unmarried unstudent
+1155,113.659,Student,Married,7659,married student
+246,41.025,Not student,Married,4229,married unstudent
+1329,69.656,Not student,Married,8244,married unstudent
+0,20.15,Not student,Married,2646,married unstudent
+133,76.273,Not student,Married,4779,married unstudent
+118,58.063,Not student,Not married,4221,unmarried unstudent
+0,21.374,Not student,Married,2073,married unstudent
+962,34.48,Not student,Not married,6090,unmarried unstudent
+701,121.709,Not student,Married,7818,married unstudent
+571,10.403,Not student,Married,4159,married unstudent
+503,48.577,Not student,Married,5145,married unstudent
+549,40.885,Not student,Married,5013,married unstudent
+1099,27.33,Not student,Married,6179,married unstudent
+531,41.532,Not student,Married,5000,married unstudent
+1140,115.52,Not student,Not married,9272,unmarried unstudent
+29,33.017,Not student,Married,3180,married unstudent
+0,30.682,Not student,Not married,1671,unmarried unstudent
+156,69.165,Not student,Not married,4668,unmarried unstudent
+413,12.068,Not student,Married,3873,married unstudent
+836,12.238,Not student,Not married,4865,unmarried unstudent
+1999,182.728,Not student,Married,13913,married unstudent
+1341,91.362,Not student,Married,9113,married unstudent
+1084,49.502,Not student,Married,6819,married unstudent
+333,10.354,Not student,Married,3480,married unstudent
+182,21.011,Not student,Married,3402,married unstudent
+0,27.59,Not student,Married,2586,married unstudent
+0,21.038,Not student,Married,1448,married unstudent
+429,31.811,Not student,Married,4284,married unstudent
+0,32.164,Not student,Married,2937,married unstudent
+942,29.638,Not student,Married,5833,married unstudent
+485,10.852,Not student,Not married,3907,unmarried unstudent
+283,36.934,Not student,Married,4270,married unstudent
+425,41.868,Not student,Not married,4716,unmarried unstudent
+172,31.335,Not student,Not married,3526,unmarried unstudent
+661,115.123,Not student,Not married,7760,unmarried unstudent
+1425,39.831,Student,Married,6045,married student
+1411,68.206,Student,Not married,6784,unmarried student
+426,13.234,Not student,Married,3922,married unstudent
+0,38.009,Not student,Not married,3075,unmarried unstudent
+526,134.181,Not student,Not married,7838,unmarried unstudent
+108,76.348,Not student,Not married,4697,unmarried unstudent
+1107,149.316,Not student,Not married,10278,unmarried unstudent
+1050,146.183,Not student,Not married,9540,unmarried unstudent
+653,42.357,Not student,Married,5550,married unstudent
+588,29.4,Not student,Married,4840,married unstudent
+863,16.711,Not student,Married,5274,married unstudent
+1243,128.669,Not student,Married,9824,married unstudent
+579,15.56,Not student,Married,4307,married unstudent
+607,44.205,Not student,Married,5441,married unstudent
+0,18.967,Not student,Married,1626,married unstudent
+1093,30.007,Not student,Married,6481,married unstudent
+548,76.782,Not student,Married,5977,married unstudent
+681,14.956,Not student,Not married,4640,unmarried unstudent
+724,14.887,Not student,Married,4745,married unstudent
+5,16.279,Student,Married,1160,married student
+745,15.846,Not student,Not married,4768,unmarried unstudent
+1237,58.026,Not student,Not married,7499,unmarried unstudent
+1032,59.879,Not student,Not married,6906,unmarried unstudent
+1230,98.515,Not student,Not married,8760,unmarried unstudent
+148,19.144,Not student,Not married,3291,unmarried unstudent
+0,31.367,Not student,Married,1829,married unstudent
+0,10.742,Not student,Not married,1757,unmarried unstudent
+384,22.379,Not student,Married,3965,married unstudent
+732,151.947,Not student,Married,9156,married unstudent
+218,85.425,Not student,Married,5182,married unstudent
+216,23.793,Not student,Not married,3615,unmarried unstudent
+126,58.351,Not student,Married,4411,married unstudent
+0,27.241,Not student,Married,1402,married unstudent
+734,49.794,Not student,Not married,5758,unmarried unstudent
+0,24.46,Not student,Married,1924,married unstudent
+815,55.367,Not student,Married,6340,married unstudent
+227,107.986,Not student,Married,6033,married unstudent
+1000,20.974,Not student,Married,5673,married unstudent
+0,25.988,Not student,Not married,1349,unmarried unstudent
+0,15.333,Not student,Married,1499,married unstudent
+265,27.229,Not student,Not married,3484,unmarried unstudent
+450,30.42,Not student,Not married,4442,unmarried unstudent
+945,16.103,Not student,Married,5390,married unstudent
+411,64.027,Not student,Married,5179,married unstudent
+829,23.949,Not student,Married,5343,married unstudent
+211,39.705,Not student,Married,3969,married unstudent
+538,55.187,Not student,Married,5352,married unstudent
+711,24.919,Not student,Married,5051,married unstudent
+1311,83.851,Not student,Not married,8494,unmarried unstudent
+1048,36.508,Not student,Married,6386,married unstudent
+638,10.793,Not student,Not married,3878,unmarried unstudent
+903,106.025,Student,Married,6645,married student
+907,21.551,Not student,Married,5380,married unstudent
+0,92.112,Not student,Not married,4612,unmarried unstudent
+1355,72.945,Not student,Not married,8603,unmarried unstudent
+768,69.251,Not student,Married,6386,married unstudent
+1048,42.079,Not student,Not married,6626,unmarried unstudent
+210,12.031,Not student,Married,3182,married unstudent
+81,25.078,Not student,Married,3096,married unstudent
+136,15.866,Not student,Not married,3085,unmarried unstudent
+0,41.4,Not student,Married,2561,married unstudent
+187,36.355,Not student,Married,3613,married unstudent
+967,30.55,Not student,Not married,5869,unmarried unstudent
+712,53.566,Not student,Not married,5891,unmarried unstudent
+717,19.349,Not student,Married,4941,married unstudent
+728,30.413,Student,Not married,3690,unmarried student
+790,113.772,Student,Married,6442,married student
+195,10.627,Student,Married,1647,married student
+191,10.503,Not student,Married,2923,married unstudent
+375,36.295,Student,Not married,2963,unmarried student
+0,30.132,Not student,Not married,2168,unmarried unstudent
+0,11.808,Not student,Not married,1300,unmarried unstudent
+1380,14.312,Student,Not married,5382,unmarried student
+0,27.272,Not student,Married,1389,married unstudent
+1241,19.531,Student,Married,5043,married student
+1054,20.405,Student,Not married,4543,unmarried student
+148,29.705,Not student,Married,3351,married unstudent
+1023,20.191,Not student,Married,5767,married unstudent
+653,38.954,Not student,Not married,5222,unmarried unstudent
+601,23.989,Not student,Not married,4523,unmarried unstudent
+0,25.936,Not student,Not married,1774,unmarried unstudent
+1081,43.682,Not student,Married,6922,married unstudent
+1092,33.657,Not student,Not married,6196,unmarried unstudent
+856,58.165,Not student,Married,6617,married unstudent
+0,57.202,Not student,Not married,3411,unmarried unstudent
+611,12.335,Not student,Married,4471,married unstudent
+0,15.602,Not student,Married,906,married unstudent
+336,28.508,Not student,Married,3933,married unstudent
+69,50.699,Not student,Not married,3977,unmarried unstudent
+654,42.471,Student,Not married,3625,unmarried student
+0,27.039,Not student,Not married,2161,unmarried unstudent
+0,34.509,Not student,Married,2001,married unstudent
+204,80.616,Not student,Married,5308,married unstudent
+0,13.676,Not student,Not married,2330,unmarried unstudent
+230,51.345,Not student,Not married,4327,unmarried unstudent
+957,16.304,Not student,Married,5466,married unstudent
+789,58.929,Not student,Married,6420,married unstudent
+1677,140.672,Not student,Married,11200,married unstudent
+654,36.362,Not student,Married,5183,married unstudent
+0,20.089,Not student,Married,2525,married unstudent
+1075,15.079,Not student,Married,5673,married unstudent
+16,20.918,Student,Married,1233,married student
+410,10.735,Not student,Married,3746,married unstudent
+474,12.581,Not student,Married,3976,married unstudent
+534,35.864,Not student,Married,4831,married unstudent
+844,23.375,Not student,Married,5429,married unstudent
+0,29.564,Not student,Married,2529,married unstudent
+345,89,Not student,Not married,5759,unmarried unstudent
+0,42.915,Not student,Married,2532,married unstudent
+133,14.132,Not student,Not married,2998,unmarried unstudent
+1048,73.914,Not student,Married,7333,married unstudent
+52,15.476,Not student,Not married,2762,unmarried unstudent
+905,26.4,Not student,Not married,5640,unmarried unstudent
+145,20.936,Not student,Not married,3254,unmarried unstudent
+657,25.124,Not student,Married,4776,married unstudent
+1597,107.841,Not student,Not married,10384,unmarried unstudent
+0,75.406,Not student,Married,3874,married unstudent
+1298,63.534,Not student,Married,8100,married unstudent
+633,48.218,Not student,Married,5199,married unstudent
+835,34.664,Not student,Married,5835,married unstudent
+480,13.364,Not student,Not married,3838,unmarried unstudent
+0,31.353,Not student,Married,1705,married unstudent
+0,60.449,Not student,Married,3098,married unstudent
+1255,16.751,Student,Not married,4706,unmarried student
+689,15.741,Not student,Married,4788,married unstudent
+368,36.496,Not student,Married,4378,married unstudent
+309,24.088,Not student,Married,3665,married unstudent
+1259,123.299,Student,Not married,8376,unmarried student
+0,13.444,Not student,Married,886,married unstudent
+99,53.48,Not student,Not married,4263,unmarried unstudent
+1046,46.007,Not student,Married,6637,married unstudent
+580,104.593,Not student,Not married,7075,unmarried unstudent
+594,24.23,Not student,Married,4756,married unstudent
+132,28.474,Not student,Married,3202,married unstudent
+199,19.588,Not student,Not married,3211,unmarried unstudent
+1549,33.437,Student,Not married,6207,unmarried student
+162,27.369,Not student,Married,3449,married unstudent
+0,13.433,Not student,Married,1134,married unstudent
+1388,113.829,Not student,Married,9704,married unstudent
+269,54.319,Student,Not married,3063,unmarried student
+89,17.7,Not student,Not married,2860,unmarried unstudent
+1404,26.427,Student,Married,5533,married student
+295,59.855,Not student,Married,4964,married unstudent
+1426,130.209,Not student,Married,10088,married unstudent
+0,32.916,Not student,Married,1786,married unstudent
+902,43.479,Student,Married,4569,married student
+0,10.726,Not student,Married,1568,married unstudent
+710,19.636,Not student,Not married,4896,unmarried unstudent
+661,33.214,Not student,Not married,5137,unmarried unstudent
+0,30.012,Not student,Married,1511,married unstudent
+250,128.04,Not student,Married,6982,married unstudent
+136,68.462,Not student,Married,4712,married unstudent
+560,12.096,Not student,Married,4100,married unstudent

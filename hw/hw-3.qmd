@@ -1,0 +1,119 @@
+---
+title: "Homework 3"
+author: "Insert your name here"
+editor: source
+format: pdf
+---
+
+
+Load your packages:
+
+```{r}
+#| label: load-packages
+#| message: false
+
+# add code here
+```
+
+Load your data: 
+
+```{r}
+#| label: load-data
+#| message: false
+
+# add code here
+```
+
+## Exercise 0
+
+What music should we listen to while we grade this?
+
+
+{{< pagebreak >}}
+
+# Part 1: credit cards
+
+## Exercise 1
+
+Add your response here.
+
+```{r}
+#| label: ex-1
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 2
+
+Add your response here.
+
+```{r}
+#| label: ex-2
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 3
+
+Add your response here.
+
+```{r}
+#| label: ex-3
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 4
+
+Add your response here.
+
+```{r}
+#| label: ex-4
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 5
+
+Add your response here.
+
+```{r}
+#| label: ex-5
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 6
+
+Add your response here.
+
+```{r}
+#| label: ex-6
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+
+
+# Part 2: think about it
+
+
+## Exercise 7
+
+Add your response here.
+
+
+
+
