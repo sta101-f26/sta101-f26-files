@@ -1,0 +1,171 @@
+---
+title: "AE 05: Diamonds!"
+format: html
+---
+
+We want to understand how "The 4 Cs" predict a diamond's price. We have a dataset with 5,000 rows, where each row is a diamond, and along the columns we record each diamond's...
+
+- `price`: in USD;
+- `carat`: weight of the diamond;
+- `cut`: quality of the cut (Fair, Good, Very Good, Premium, Ideal);
+- `color`: diamond colour, from J (worst) to D (best);
+- `clarity`: a measurement of how clear the diamond is;
+    - I (worst), SI, VS, VVS, IF (best);
+- `length_mm`;
+- `width_mm`.
+
+```{r}
+#| label: load-packages
+#| message: false
+library(tidyverse)
+library(tidymodels)
+```
+
+## Load and prepare the data
+
+```{r}
+#| label: load-data
+#| message: false
+diamonds <- read_csv("data/diamonds.csv")
+```
+
+These data have several *categorical* variables: `cut`, `color`, and `clarity`. How are their levels ordered? Does this make sense?
+
+```{r}
+#| label: level-ordering
+
+# replace with your code
+```
+
+If you don't think that the order of the levels makes sense, use `mutate`, `fct_relevel`, and variable assignment to change it:
+
+```{r}
+#| label: re-level
+
+# replace with your code
+```
+
+## Exploratory analysis
+
+Visualize the bivariate relationship between `price` and each of the 4 Cs.
+
+```{r}
+#| label: price-carat
+
+# replace with your code
+```
+
+```{r}
+#| label: price-cut
+
+# replace with your code
+```
+
+```{r}
+#| label: price-clarity
+
+# replace with your code
+```
+
+```{r}
+#| label: price-color
+
+# replace with your code
+```
+
+Put price, carat, and clarity on one plot:
+
+```{r}
+#| label: price-carat-clarity
+
+# replace with your code
+```
+
+## Empty model
+
+Fit the model for `price` that has no predictors:
+
+```{r}
+#| label: empty-model
+
+# replace with your code
+```
+
+Interpret the coefficient estimate:
+
+- 
+
+## Simple linear regression
+
+Fit the model that predicts `price` from `carat`:
+
+```{r}
+#| label: price-carat-model
+
+# replace with your code
+```
+
+Write the equation for the equation of the fitted model:
+
+$$
+\widehat{y}=b_0+b_1\times x.
+$$
+
+Interpret the coefficient estimates:
+
+- 
+- 
+
+## Additive model
+
+Fit the additive model that predicts `price` from `carat` and `clarity`:
+
+```{r}
+#| label: price-carat-clarity-model-1
+
+# replace with your code
+```
+
+Interpret some coefficient estimates:
+
+- 
+- 
+
+## Interaction model
+
+Fit the interaction model that predicts `price` from `carat` and `clarity`:
+
+
+```{r}
+#| label: price-carat-clarity-model-2
+
+# replace with your code
+```
+
+Interpret some coefficient estimates:
+
+- 
+- 
+
+## "Full" model
+
+Fit the additive model that predicts `price` from all other variables in the dataset:
+
+
+```{r}
+#| label: full-model
+
+# replace with your code
+```
+
+## Selection 
+
+Use adjusted $R^2$ to select the "best" model for `price`.
+
+```{r}
+#| label: selection
+
+# replace with your code
+```
+
+
