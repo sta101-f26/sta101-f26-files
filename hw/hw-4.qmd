@@ -1,0 +1,146 @@
+---
+title: "Homework 4"
+author: "Insert your name here"
+editor: source
+format: pdf
+---
+
+
+Load your packages:
+
+```{r}
+#| label: load-packages
+#| message: false
+
+# add code here
+```
+
+Load your data: 
+
+```{r}
+#| label: load-data
+#| message: false
+
+# add code here
+```
+
+## Exercise 0
+
+What music should we listen to while we grade this?
+
+{{< pagebreak >}}
+
+# Part 1: lifting and model selection
+
+## Exercise 1
+
+### part a
+
+```{r}
+#| label: lifting-data-prep
+
+# add code here
+```
+
+### part b
+
+```{r}
+#| label: lifting-best-model
+
+# add code here
+```
+
+### part c
+
+Add your response here.
+
+### part d
+
+Add your response here.
+
+### part e
+
+Add your response here.
+
+{{< pagebreak >}}
+
+# Part 2: GSS and logistic regression
+
+## Exercise 2
+
+```{r}
+#| label: gss-data-prep
+
+# add code here
+```
+
+## Exercise 3
+
+### part a
+
+```{r}
+#| label: advfront-educ-fit
+
+# add code here
+```
+
+### part b
+
+$$
+\log\left(\frac{\hat{p}}{1-\hat{p}}\right) = ???
+$$
+
+### part c
+
+Add your response here.
+
+### part d
+
+```{r}
+#| label: predict
+
+# add code here
+```
+
+
+## Exercise 4
+
+### part a
+
+```{r}
+#| label: advfront-educ-polviews-fit
+
+# add code here
+```
+
+### part b
+
+$$
+\log\left(\frac{\hat{p}}{1-\hat{p}}\right) = ???
+$$
+
+### part c
+
+Add your response here.
+
+```{r}
+#| label: selection
+
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Part 3: IMS exercises
+
+## Exercise 5
+
+Add your response here.
+
+## Exercise 6
+
+Add your response here.
+
+
+
+
