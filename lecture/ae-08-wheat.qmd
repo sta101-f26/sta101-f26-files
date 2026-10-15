@@ -1,0 +1,98 @@
+---
+title: "AE 8: Wheat Oral Immunotherapy"
+format:
+  html:
+    self-contained: true
+---
+
+Nowak-Węgrzyn et al. (2019) conducted a multicenter, randomized, double-blind, placebo-controlled clinical trial to evaluate whether vital wheat gluten (VWG) oral immunotherapy (OIT) is effective at increasing wheat tolerance in children and young adults with wheat allergy.
+
+In today's AE, you will analyze a dataset *simulated* to represent this study using the tools from lecture.
+
+(<https://pubmed.ncbi.nlm.nih.gov/30389226/>)
+
+# Packages
+
+```{r}
+#| label: load-packages
+#| message: false
+library(tidyverse)
+library(tidymodels)
+```
+
+# Data
+
+```{r}
+#| message: false
+wheat_trial <- read_csv("data/wheat.csv")
+```
+
+Variables:
+
+| Variable             | Description                                                            |
+|----------------------|------------------------------------------------------------------------|
+| `id`                 | Unique participant identifier                                          |
+| `age`                | Participant age (years)                                                |
+| `baseline_wheat_ige` | Baseline wheat IgE level (kU/L) --- a measure of allergy severity      |
+| `vwg_oit`            | Treatment indicator: 1 = VWG OIT, 0 = Placebo                          |
+| `max_dose_mg`        | Maximum tolerated wheat protein dose (mg) at the year-1 food challenge |
+
+# Exercise 1: Study design
+
+Fill in the following based on the paper and today's lecture:
+
+-   **Treatment indicator** ($Z$):
+
+-   **Treatment group** ($Z = 1$):
+
+-   **Control group** ($Z = 0$):
+
+-   **Outcome** ($Y$):
+
+-   **Covariates** ($X$):
+
+# Exercise 2: Exploratory data analysis
+
+**a.** Create a visualization comparing the distribution of `max_dose_mg` across the two treatment groups.
+What do you notice?
+
+```{r}
+# add code here
+```
+
+*Describe what you see:*
+
+**b.** Compute the mean and standard deviation of `max_dose_mg` for each treatment group.
+
+```{r}
+# add code here
+```
+
+# Exercise 3: Modeling
+
+**a.** Fit a linear regression model predicting `max_dose_mg` from `vwg_oit`.
+
+```{r}
+# add code here
+```
+
+**b.** Interpret the slope coefficient for `vwg_oit` in context.
+Since this is a randomized experiment, use **causal** language in your interpretation (e.g., "causes," "leads to").
+
+*Write your answer here.*
+
+
+# Exercise 4: Further covariate adjustment
+
+**a.** Fit a model that adds `baseline_wheat_ige` as an additional predictor.
+How does the `vwg_oit` estimate compare to the model in Exercise 3?
+
+```{r}
+# add code here
+```
+
+*Write your answer here.*
+
+**b.** Why might we include `baseline_wheat_ige` in our model even if the two groups are already balanced on this variable?
+
+*Write your answer here.*
