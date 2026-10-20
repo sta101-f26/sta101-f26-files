@@ -1,0 +1,86 @@
+---
+title: "AE 09: the LaLonde study"
+format: html
+---
+
+# Packages
+
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+library(tidymodels)
+library(MatchIt)
+```
+
+# Data
+
+
+```{r}
+data("lalonde", package = "MatchIt")
+glimpse(lalonde)
+```
+
+# Visualize
+
+```{r}
+# add code here
+```
+
+
+# Naive estimate
+
+```{r}
+naive <- linear_reg() |>
+  fit(re78 ~ treat, lalonde)
+
+tidy(naive)
+```
+
+
+# Regression adjustment
+
+```{r}
+reg <- linear_reg() |>
+  fit(re78 ~ treat + age + educ + re74 + re75, lalonde)
+
+tidy(reg)
+```
+
+
+# Alternative: nearest-neighbor matching
+
+```{r}
+m_out <- matchit(
+  treat ~ age + educ + re74 + re75,
+  data   = lalonde,
+  method = "nearest",
+  distance = "mahalanobis"
+)
+
+m_data <- match.data(m_out)
+
+linear_reg() |>
+  fit(re78 ~ treat, data = m_data) |>
+  tidy()
+```
+
+# Alternative: propensity score matching
+
+```{r}
+ps_match <- matchit(
+  treat ~ age + educ + re74 + re75,
+  data     = lalonde,
+  method   = "nearest",
+  distance = "glm"
+)
+
+summary(ps_match, un = FALSE)
+
+ps_data <- match.data(ps_match)
+
+linear_reg() |>
+  fit(re78 ~ treat, data = ps_data) |>
+  tidy()
+```
