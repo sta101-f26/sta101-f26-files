@@ -1,0 +1,97 @@
+---
+title: "AE 11: Wheat Oral Immunotherapy"
+format:
+  html:
+    self-contained: true
+---
+
+Nowak-Węgrzyn et al. (2019) conducted a multicenter, randomized, double-blind, placebo-controlled clinical trial to evaluate whether vital wheat gluten (VWG) oral immunotherapy (OIT) is effective at increasing wheat tolerance in children and young adults with wheat allergy.
+
+In today's AE, you will analyze a dataset *simulated* to represent this study using the tools from lecture.
+
+(<https://pubmed.ncbi.nlm.nih.gov/30389226/>)
+
+# Packages
+
+```{r}
+#| label: load-packages
+#| message: false
+library(tidyverse)
+library(tidymodels)
+```
+
+# Data
+
+```{r}
+#| message: false
+wheat_trial <- read_csv("data/wheat.csv")
+```
+
+Variables:
+
+| Variable             | Description                                                            |
+|----------------------|------------------------------------------------------------------------|
+| `id`                 | Unique participant identifier                                          |
+| `age`                | Participant age (years)                                                |
+| `baseline_wheat_ige` | Baseline wheat IgE level (kU/L) --- a measure of allergy severity      |
+| `vwg_oit`            | Treatment indicator: 1 = VWG OIT, 0 = Placebo                          |
+| `max_dose_mg`        | Maximum tolerated wheat protein dose (mg) at the year-1 food challenge |
+
+# Exercise 1: interval estimation
+
+**a.** Calculate the observed fit using `specify() |> fit()`.
+
+```{r}
+# add code here
+```
+
+**b.** Generate 1000 bootstrap samples and fit a model to each one.
+
+```{r}
+set.seed(1120)
+# add code here
+```
+
+**c.** Compute the 95% confidence interval using the percentile method.
+
+```{r}
+# add code here
+```
+
+**d.** Interpret the confidence interval for `vwg_oit` in context.
+Use causal language.
+
+*Write your answer here.*
+
+# Exercise 2: hypothesis testing
+
+**a.** State the null and alternative hypotheses.
+
+$H_0$:
+
+$H_A$:
+
+**b.** Calculate the observed fit and simulate the null distribution using 1000 permutations.
+
+```{r}
+set.seed(24601)
+# add code here
+```
+
+**c.** Visualize the null distribution and shade the p-value region.
+
+```{r}
+# add code here
+```
+
+**d.** Calculate the p-value.
+
+```{r}
+# add code here
+```
+
+**e.** State your conclusion in context.
+
+*Write your answer here.*
+
+
