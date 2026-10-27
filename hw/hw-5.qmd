@@ -1,0 +1,71 @@
+---
+title: "Homework 5"
+author: "Insert your name here"
+editor: source
+format: pdf
+---
+
+
+Load your packages:
+
+```{r}
+#| label: load-packages
+#| message: false
+
+# add code here
+```
+
+Load your data: 
+
+```{r}
+#| label: load-data
+#| message: false
+
+# add code here
+```
+
+## Exercise 0
+
+What music should we listen to while we grade this?
+
+{{< pagebreak >}}
+
+# Part 1: babies
+
+## Exercise 1
+
+```{r}
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 2
+
+```{r}
+# add code here
+```
+
+{{< pagebreak >}}
+
+## Exercise 3
+
+```{r}
+# add code here
+```
+
+{{< pagebreak >}}
+
+# Part 3: IMS exercises
+
+## Exercise 4
+
+Add your response here.
+
+## Exercise 5
+
+Add your response here.
+
+
+
+
