@@ -1,0 +1,111 @@
+---
+title: "AE 13: more Pokemon"
+---
+
+Today we’ll explore the question “Are taller Pokémon speedier than shorter Pokémon?”
+
+# Packages
+
+```{r}
+#| label: load-packages
+#| message: false
+
+library(tidyverse)
+library(tidymodels)
+```
+
+# Data
+
+The data for this application exercise was originally gathered using the [**Complete Pokémon Dataset**](https://www.kaggle.com/datasets/rounakbanik/pokemon) from Kaggle. 
+
+First, let's load the data:
+
+```{r}
+#| label: load-data
+#| message: false
+
+pokemon <- read_csv("data/pokemon.csv")
+```
+
+We are interested in whether a Pokémon's log height (measured in meters) can predict its speed (how fast it is), so let's add that new variable:
+
+```{r}
+pokemon <- pokemon |>
+  mutate(log_height = log(height_m))
+
+glimpse(pokemon)
+```
+
+Furthermore, let's isolate a small sub-sample of the data. Later on, we can increase the sample size and see how that affects the results:
+
+```{r}
+
+
+
+```
+
+# Point estimation (two ways!)
+
+Estimate the simple linear regression using the old syntax we learned:
+
+```{r}
+
+```
+
+Do it using the new syntax:
+
+```{r}
+
+```
+
+# Interval estimation (two ways!)
+
+## simulation + histogram
+
+We already know how to do this with the bootstrap:
+
+```{r}
+
+```
+
+Plot it!
+
+```{r}
+
+```
+
+
+## bell curve
+
+Grab the original slope estimate and its standard error, and compute the quantiles of the bell curve:
+
+```{r}
+
+```
+
+
+Plot the histogram again, but add normal approximation:
+
+```{r}
+
+```
+
+# Hypothesis testing (two ways!)
+
+Plot the null distribution:
+
+```{r}
+
+```
+
+Compute the p-value using the histogram and the bell curve
+
+
+```{r}
+
+
+
+```
+
+# Lessons
+
