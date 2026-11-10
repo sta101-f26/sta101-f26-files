@@ -1,0 +1,77 @@
+---
+title: Project title
+subtitle: Duke University - STA 101 - Fall 2026
+authors: 
+  - Teammate 1
+  - Teammate 2
+  - Teammate 3
+  - Teammate 4
+format: pdf
+fig-width: 5
+fig-asp: 0.618
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(tidymodels)
+```
+
+Add 1-3 sentence project abstract here.
+
+## Introduction
+
+Add introduction section here.
+
+## Data
+
+Add data section here.
+
+## Exploration
+
+Add exploratory data analysis here.
+
+The report should read like an article that might appear in a newspaper or academic journal. As such, we don't want to see any code! Include `#| echo: false` at the top of your code chunks so that only the *output* of the code appears:
+
+```{r}
+#| echo: false
+#| fig-align: center
+
+ggplot(mtcars, aes(x = wt, y = mpg)) + 
+  geom_point()
+
+```
+
+We don't want to see any code, nor do we want to see any raw R output. So, if you want to report summaries or regression results, make sure they appear in a cute lil' table, like this:
+
+
+```{r}
+#| message: false
+#| echo: false
+library(palmerpenguins)
+
+penguins |>
+  group_by(species) |>
+  summarize(
+    Mean = mean(flipper_length_mm, na.rm = TRUE),
+    Median = median(flipper_length_mm, na.rm = TRUE),
+    SD = sd(flipper_length_mm, na.rm = TRUE)
+  ) |>
+  knitr::kable(digits = 3)
+```
+
+
+## Analysis
+
+Add analysis section here.
+
+## Discussion
+
+Add discussion section here.
+
+
+
+
