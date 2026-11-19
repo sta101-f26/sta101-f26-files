@@ -1,0 +1,152 @@
+---
+title: "AE 15: births"
+format: html
+---
+
+A **statistical problem** consists of four things:
+
+- (**data structure**) in this class our data always come as a data frame, so data structures differ according to how many columns they have and what the variable types are;
+- (**target**) what unknown quantity are we trying to use the data to learn about?
+- (**estimator**) how are we going to convert our data into a *best guess* (aka estimate) of the unknown target?
+- (**sampling distribution**) what strategy are we going to use to approximate the sampling distribution of the estimate? We've seen two options, both of which are approximations that make assumptions and work better sometimes than others:
+    - simulation (histogram)
+    - mathematical (smooth curve)
+
+In general, the simulation-based approach may be more versatile across different kinds of statistical problems. 
+
+
+
+To illustrate all of the options we have encountered, we will use different subsets of columns in the `births14` dataset in the `openintro` package:
+
+```{r}
+#| message: false
+library(tidyverse)
+library(tidymodels)
+library(openintro)
+
+glimpse(births14)
+```
+
+# One binary variable (estimating a proportion)
+
+> What fraction of mothers smoke?
+
+We have data on this!
+
+```{r}
+births14 |> select(habit)
+```
+
+## Point estimation
+
+```{r}
+
+
+
+```
+
+## Simulation-based approximation
+
+```{r}
+
+```
+
+## Mathematical approximation
+
+The central limit theorem (and other results) promises that for large enough sample size (number of rows $n$), the sampling distribution of the sample proportion will be approximately:
+
+$$
+N\left(\widehat{prop},\,SE = \sqrt{\frac{\widehat{prop}(1-\widehat{prop})}{n}}\right).
+$$
+
+
+```{r}
+
+```
+
+# Two binary variables (estimating a difference in proportions)
+
+> How is smoking (`habit`) related to whether or not the birth is classified as premature (`premie`)?
+
+We have data on this!
+
+```{r}
+births14 |> select(habit, premie)
+```
+
+## Point estimation
+
+Old way:
+
+```{r}
+
+```
+
+
+New way:
+
+```{r}
+
+
+```
+
+## Simulation-based approximation
+
+```{r}
+
+```
+
+
+
+# One numerical variable (estimating a mean)
+
+> How heavy are newborns, typically?
+
+We have data on this!
+
+```{r}
+
+```
+
+# One numerical variable and one binary variable (estimating a difference in means)
+
+> Do newborn weights differ depending on whether or not the mother smokes?
+
+We have data on this!
+
+```{r}
+
+```
+
+# Two numerical variables (estimating a regression slope)
+
+> Is the weight of the baby related to the length of the pregnancy?
+
+
+We have data on this!
+
+```{r}
+
+```
+
+
+## Point estimation
+
+```{r}
+
+
+
+```
+
+## Simulation-based approximation
+
+```{r}
+
+```
+
+## Mathematical approximation
+
+Apparently, the `infer` package doesn't actually implement this, but that's okay. 
+
+
+
